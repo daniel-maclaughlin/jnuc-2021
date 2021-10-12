@@ -1,0 +1,68 @@
+{
+   "records":[
+      {
+         "time":"2021-08-05T04:24:35.3581813Z",
+         "resourceId":"/tenants/18b68ebe-edc4-4cb0-9eca-XXXXXXXXXXXXXXX/providers/Microsoft.aadiam",
+         "operationName":"Disable account",
+         "operationVersion":"1.0",
+         "category":"AuditLogs",
+         "tenantId":"18b68ebe-edc4-4cb0-9eca-XXXXXXXXXXXXXXX",
+         "resultSignature":"None",
+         "durationMs":0,
+         "callerIpAddress":"20.190.142.170",
+         "correlationId":"f4163769-7df9-4f13-8adc-XXXXXXXXXXXXXXX",
+         "Level":4,
+         "properties":{
+            "id":"Directory_f4163769-7df9-4f13-8adc-XXXXXXXXXXXXXXX",
+            "category":"UserManagement",
+            "correlationId":"f4163769-7df9-4f13-8adc-XXXXXXXXXXXXXXX",
+            "result":"success",
+            "resultReason":"",
+            "activityDisplayName":"Disable account",
+            "activityDateTime":"2021-08-05T04:24:35.3581813+00:00",
+            "loggedByService":"Core Directory",
+            "operationType":"Update",
+            "initiatedBy":{
+               "user":{
+                  "id":"1a9286b9-b26a-4147-8fa3-XXXXXXXXXXXXXXX",
+                  "displayName":null,
+                  "userPrincipalName":"daniel.admin@vjnuc2021.io",
+                  "ipAddress":null,
+                  "roles":[
+                     
+                  ]
+               }
+            },
+            "targetResources":[
+               {
+                  "id":"f8bdd601-3ad6-4e92-b28b-e48b618393ca",
+                  "displayName":null,
+                  "type":"User",
+                  "userPrincipalName":"daniel.jnuc@vjnuc2021.io",
+                  "modifiedProperties":[
+                     {
+                        "displayName":"AccountEnabled",
+                        "oldValue":"[true]",
+                        "newValue":"[false]"
+                     },
+                     {
+                        "displayName":"Included Updated Properties",
+                        "oldValue":null,
+                        "newValue":"\"AccountEnabled\""
+                     }
+                  ],
+                  "administrativeUnits":[
+                     
+                  ]
+               }
+            ],
+            "additionalDetails":[
+               {
+                  "key":"User-Agent",
+                  "value":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15"
+               }
+            ]
+         }
+      }
+   ]
+}
